@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Game Exercise</title>
+</head>
+
+<body>
+    <input type="button" onclick="logout()" value="Logout" />
+    <p>Click the buttons to move the red square:</p>
+  <div id="myfilter"
+    style="position:absolute;background-color:#000000;opacity:0.3;width:322px;height:182px;display:none"></div>
+  <div id="myrestartbutton" style="position:absolute;padding-top:75px;padding-left:120px;display:none;"><button
+      onclick="restartGame()">Restart</button></div>
+  <div id="canvascontainer"></div>
+  <br>
+
+  <div style="text-align:center;width:320px;">
+    <button ontouchstart="moveup()" onmousedown="moveup()" onmouseup="clearmove()">UP</button><br><br>
+    <button ontouchstart="moveleft()" onmousedown="moveleft()" onmouseup="clearmove()">LEFT</button>
+    <button ontouchstart="moveright()" onmousedown="moveright()" onmouseup="clearmove()">RIGHT</button><br><br>
+    <button ontouchstart="movedown()" onmousedown="movedown()" onmouseup="clearmove()">DOWN</button>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
