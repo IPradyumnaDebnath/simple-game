@@ -1,7 +1,9 @@
-### `npm start`
+### `GIT CLone`
 GIT Clone
+
 ### `Run`
 Click Index.html
+
 ### `User authentication`
 username: myuserid
 password: mypswrd
