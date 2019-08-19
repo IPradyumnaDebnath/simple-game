@@ -1,8 +1,8 @@
-### Copy this repo
+### `Copy this repo`
 GIT Clone
-### Run
+### `Run`
 Click Index.html
-### User authentication
+### `User authentication`
 username: myuserid
 password: mypswrd
 hit login
