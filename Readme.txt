@@ -1,4 +1,4 @@
-### `Copy this repo`
+### `npm start`
 GIT Clone
 ### `Run`
 Click Index.html
